@@ -35,6 +35,10 @@ a {
 }
 
 #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
     padding: 20px 30px;
     background-color: #b84a62;
     color: #ffffff;
@@ -83,7 +87,7 @@ a {
 
 .welcome-content {
     width: 500px;
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 40px;
     background-color: #fadcce;
     border-radius: 10px;
