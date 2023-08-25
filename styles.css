@@ -93,6 +93,23 @@ a {
     border-radius: 10px;
 }
 
+.cta{
+    margin: 20px auto 10px;
+    width: 50%;
+    text-align: center;
+    background-color:#24092d;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #24092d;
+}
+
+.cta:hover{
+    color: #24092d;
+    background-color: #99344a;
+    
+}
+
 #projects {
     padding: 70px;
     text-align: center;
