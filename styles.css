@@ -81,6 +81,10 @@ a {
     color: #24092d;
 }
 
+#contact a:hover{
+    color: #99344a;
+}
+
 #welcome-section {
     min-height: 100vh;
 }
@@ -150,4 +154,8 @@ footer{
     font-size: 1.3rem;
     padding: 10px;
     border-top: 2px solid #99344a;
+}
+
+footer a:hover{
+    color: #24092d;
 }
