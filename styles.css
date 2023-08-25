@@ -68,12 +68,13 @@ a {
     text-align: center;
 }
 
-.contact-links{
+.contact-links {
     padding-top: 50px;
 }
-#contact a{
+
+#contact a {
     margin: 20px;
-    color:#24092d;
+    color: #24092d;
 }
 
 #welcome-section {
@@ -119,4 +120,13 @@ h2 {
 
 .project:hover {
     background-color: #b84a623b;
+}
+
+footer{
+    background-color: #fadcce;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-top: 2px solid #99344a;
 }
