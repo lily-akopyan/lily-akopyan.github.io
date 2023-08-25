@@ -124,6 +124,7 @@ h2 {
 }
 
 .projects-flex {
+    flex-direction: row;
     margin-top: 30px;
     justify-content: center;
     gap: 10px;
@@ -158,4 +159,11 @@ footer{
 
 footer a:hover{
     color: #24092d;
+}
+
+@media only screen and (max-width: 1080px){
+    .projects-flex {
+        flex-direction: column;
+        align-items: center;
+    }
 }
