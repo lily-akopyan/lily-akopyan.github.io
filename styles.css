@@ -6,14 +6,15 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
-html{
+html {
     box-sizing: border-box;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Roboto Slab', serif;
     font-size: 1.6rem;
@@ -24,9 +25,11 @@ body {
     font-weight: 900;
     color: #fadcce
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .flex-container {
     display: flex;
 }
@@ -45,7 +48,6 @@ a{
 
 .nav-link {
     font-weight: 500;
-    /* text-decoration: none; */
     list-style-type: none;
     color: #ffffff;
 }
@@ -55,11 +57,27 @@ a{
     color: #fadcce;
 }
 
-#welcome-section {
+#welcome-section,
+#contact {
     width: 100vw;
-    height: 100vh;
     background-color: #faf2ce;
     padding: 70px;
+}
+
+#contact {
+    text-align: center;
+}
+
+.contact-links{
+    padding-top: 50px;
+}
+#contact a{
+    margin: 20px;
+    color:#24092d;
+}
+
+#welcome-section {
+    min-height: 100vh;
 }
 
 .welcome-content {
@@ -75,7 +93,7 @@ a{
     text-align: center;
 }
 
-h2{
+h2 {
     color: #99344a;
 }
 
@@ -84,9 +102,7 @@ h2{
     justify-content: center;
     gap: 10px;
 }
-/* #projects a{
-    text-decoration: none;
-} */
+
 .project {
     border-radius: 10px;
     width: 350px;
@@ -101,6 +117,6 @@ h2{
     height: auto;
 }
 
-.project:hover{
+.project:hover {
     background-color: #b84a623b;
 }
