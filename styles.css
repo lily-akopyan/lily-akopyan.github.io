@@ -7,6 +7,7 @@
 body {
     font-family: 'Roboto Slab', serif;
     font-size: 1.6rem;
+    color: #24092d;
 }
 
 .logo {
@@ -20,7 +21,7 @@ body {
 
 #navbar {
     padding: 20px 30px;
-    background-color: #B84A62;
+    background-color: #b84a62;
     color: #ffffff;
     justify-content: space-between;
 }
@@ -37,19 +38,57 @@ body {
     color: #ffffff;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     font-weight: 800;
     color: #fadcce;
 }
-#welcome-section{
+
+#welcome-section {
     width: 100vw;
-    background-color: #FAF2CE;
+    height: 100vh;
+    background-color: #faf2ce;
     padding: 70px;
 }
-.welcome-content{
+
+.welcome-content {
     width: 500px;
     margin: 0 auto;
     padding: 40px;
     background-color: #fadcce;
     border-radius: 10px;
+}
+
+#projects {
+    padding: 70px;
+    text-align: center;
+}
+
+h2{
+    color: #99344a;
+}
+
+.projects-flex {
+    margin-top: 30px;
+    justify-content: center;
+    gap: 10px;
+}
+#projects a{
+    text-decoration: none;
+}
+.project {
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+    background-color: #b84a6280;
+    font-weight: 600;
+    color: #24092d;
+}
+
+.project img {
+    width: 300px;
+    height: auto;
+}
+
+.project:hover{
+    background-color: #b84a623b;
 }
