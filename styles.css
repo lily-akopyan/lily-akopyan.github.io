@@ -1,3 +1,10 @@
+:root {
+    --primary-dark: #394555;
+    --primary-light: #e0c7c8;
+    --secondary-dark: #3b1723;
+    --secondary-light: #c8a2a1;
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -18,12 +25,12 @@ html {
 body {
     font-family: 'Roboto Slab', serif;
     font-size: 1.6rem;
-    color: #24092d;
+    color: var(--secondary-dark);
 }
 
 .logo {
     font-weight: 900;
-    color: #fadcce
+    color: var(--primary-light);
 }
 
 a {
@@ -40,7 +47,7 @@ a {
     left: 0;
     width: 100vw;
     padding: 20px 30px;
-    background-color: #b84a62;
+    background-color: var(--primary-dark);
     color: #ffffff;
     justify-content: space-between;
 }
@@ -58,13 +65,13 @@ a {
 
 .nav-link:hover {
     font-weight: 800;
-    color: #fadcce;
+    color: var(--primary-light);
 }
 
 #welcome-section,
 #contact {
     width: 100vw;
-    background-color: #faf2ce;
+    background-color: var(--primary-light);
     padding: 70px;
 }
 
@@ -93,7 +100,7 @@ a {
     width: 500px;
     margin: 100px auto;
     padding: 40px;
-    background-color: #fadcce;
+    background-color: var(--secondary-light);
     border-radius: 10px;
 }
 
@@ -101,16 +108,16 @@ a {
     margin: 20px auto 10px;
     width: 50%;
     text-align: center;
-    background-color:#24092d;
-    color: #ffffff;
+    background-color:var(--secondary-light);
+    color: var(--secondary-dark);
     padding: 5px;
     border-radius: 10px;
-    border: 2px solid #24092d;
+    border: 2px solid var(--secondary-dark);
 }
 
 .cta:hover{
-    color: #24092d;
-    background-color: #99344a;
+    color: var(--secondary-light);
+    background-color: var(--secondary-dark);
     
 }
 
@@ -120,7 +127,7 @@ a {
 }
 
 h2 {
-    color: #99344a;
+    color: var(--primary-dark);
 }
 
 .projects-flex {
@@ -134,9 +141,9 @@ h2 {
     border-radius: 10px;
     width: 350px;
     padding: 10px;
-    background-color: #b84a6280;
+    background-color: var(--primary-light);
     font-weight: 600;
-    color: #24092d;
+    color: var(--secondary-dark);
 }
 
 .project img {
@@ -145,16 +152,17 @@ h2 {
 }
 
 .project:hover {
-    background-color: #b84a623b;
+    background-color: var(--secondary-dark);
+    color: var(--primary-light);
 }
 
 footer{
-    background-color: #fadcce;
+    background-color: var(--primary-light);
     width: 100vw;
     text-align: center;
     font-size: 1.3rem;
     padding: 10px;
-    border-top: 2px solid #99344a;
+    border-top: 2px solid var(--secondary-dark);
 }
 
 footer a:hover{
